@@ -9,7 +9,6 @@ a:hover {
   font-family: Futura;
   color: black;
 }
-
 .top{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
@@ -18,7 +17,6 @@ a:hover {
   font-family: Futura;
   color: yellow;
 }
-
 .middle{
   display:grid;
   grid-template-columns:repeat(2, 1fr);
@@ -27,9 +25,6 @@ a:hover {
   font-family: Futura;
   color: blue;
 }
-
-}
-
 .bg-1{
   background:#2832C2;
 }
@@ -54,10 +49,9 @@ a:hover {
 .bg-7{
   background:#FFD300;
 }
-
 @media (max-width:599px){
    .middle{
     grid-template-columns:repeat(2, 1fr);
   }
-  
+ 
 
